@@ -1,5 +1,5 @@
 
- 
+
 *{
 
     margin: 0;
@@ -112,9 +112,9 @@
   /* Estilo menu do site */
   
   header{
-    background-color:#f10101ef;
+    background-color:#ff0000;
     position: fixed;
-    box-shadow: 0px 3px 5px #ff6565; 
+    box-shadow: 0px 3px 5px #e2a1a1; 
     width: 100%;
     padding-top:0.1rem ;
     display: block;
@@ -274,16 +274,33 @@
   
   
   /*habilidades*/
-  
+  .flex-habilidades{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+
+
+  }
   section.habilidades{
     padding: 40px 4%;
     
   }
   
   .habilidades .habilidades-box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    text-align: center;
     
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 2px solid #00386d;
     transition: .2s;
   }
@@ -396,7 +413,6 @@
   
   /*MEUS PROJETOS*/
 section.projetos{
-  
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff3e;
   align-items: center;
