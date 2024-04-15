@@ -337,15 +337,6 @@
   }
   
   .habilidades-extras .habilidades-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-width: 300px;
-    max-height: 300px;
-    min-height: 300px;
-    text-align: center;
-      
     padding: 10px;
     border-radius: 20px;
     border: 2px solid #65baff;
@@ -353,16 +344,6 @@
   }
   
   .habilidades-extras .habilidades-box:hover{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-width: 300px;
-    max-height: 300px;
-    min-height: 300px;
-    text-align: center;
-
-      
     transform: scale(1.05);
     box-shadow: 0 0 15px #3b9df8;
   }
@@ -396,6 +377,17 @@
   }
   
   .habilidades-andamento .habilidades-box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    text-align: center;
+
+
     padding: 30px;
     border-radius: 20px;
     border: 2px solid #4476ff;
